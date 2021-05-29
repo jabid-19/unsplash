@@ -10,7 +10,7 @@
 
 .main {
   padding: 5rem 0;
-  flex: 1;
+  flex: 1 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,7 +75,11 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+  max-height: 500px;
   margin-top: 3rem;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .card {
@@ -87,7 +91,18 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 45%;
+  /* width: 45%; */
+ 
+}
+
+.image{
+  width: 200px;
+  height: 200px;
+}
+
+.detail_image{
+  width: 500px;
+  height: 500px;
 }
 
 .card:hover,
